@@ -1,7 +1,12 @@
 site_name: ICL RCS User Guide
 theme:
-  name: readthedocs
+  name: material
   highlightjs: true
+  features:
+    - content.code.copy
+  palette:
+    primary: black
+    accent: purple
 plugins:
   - search
   - mkdocstrings:
@@ -15,6 +20,13 @@ markdown_extensions:
       base_path: .
   - admonition
   - tables
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
 
 nav:
   - Home: index.md
