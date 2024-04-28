@@ -43,7 +43,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+
   - Remote Access: remoteaccess.md
+
   - Support and Training:
     - Getting Help: support/index.md
     - Attending a Clinic: support/attend-a-clinic.md
@@ -53,6 +55,7 @@ nav:
       - Overview: support/using-linux/index.md
       - Linux Command Line: support/using-linux/command-line.md
       - Shell Scripting: support/using-linux/shell-scripting.md
+      
   - HPC:
     - HPC at Imperial: hpc/index.md
     - Cluster Specification: hpc/cluster-specification.md
@@ -94,30 +97,11 @@ nav:
         - StarCCM: hpc/applications/guides/starccm.md
         - TensorFlow: hpc/applications/guides/tensorflow.md
     - Best Practices: hpc/best-practice.md
-    - FAQ and Common Issues:
-      - Overview: hpc/faq/index.md
-      - Long Queue Times: hpc/faq/long-queue-times.md
-      - Accidentally Deleted Files: hpc/faq/deleted-files.md
-      - Cannot Create Conda Environment: hpc/faq/cannot-create-conda-env.md
-      - Cannot SSH to HX1: hpc/faq/cannot-ssh-hx1.md
-      - How much resource should I ask for: hpc/faq/how-much-resource.md
-      - Jobs causing issues with the RDS: hpc/faq/job-issues-rds.md
-      - No such file or directory: hpc/faq/bad-interpreter.md
-      - Same or Previous Code not working: hpc/faq/code-not-working.md
-    - Advanced Topics:
-      - Overview: hpc/advanced/index.md
-      - Thread Pinning: hpc/advanced/thread-pinning.md
-      - Application Profiling:
-        - Overview: hpc/advanced/profiling/index.md
-        - Intel Advisor: hpc/advanced/profiling/intel-advisor.md
-        - Intel APS: hpc/advanced/profiling/intel-aps.md
-        - Intel Vtune: hpc/advanced/profiling/intel-vtune-profiler.md
-      - Debugging Mpi programs:
-        - Overview: hpc/advanced/debugging_mpi_programs/debugging_overview.md
-        - Use of GDB to deubug MPI program: hpc/advanced/debugging_mpi_programs/gdb_mpi_debug.md
-    - Pilot Systems:
-      - HX1: hpc/pilot/hx1.md
-      - CX3 Phase 2: hpc/pilot/cx3-phase2.md
+
+  - Pilot HPC Systems:
+    - HX1: hpc/pilot/hx1.md
+    - CX3 Phase 2: hpc/pilot/cx3-phase2.md
+
   - RDS:
     - RDS: rds/index.md
     - RDS Paths: rds/paths.md
@@ -134,3 +118,25 @@ nav:
       - Disk Space: rds/managing/disk-space.md
       - Recovering Deleted Files: rds/managing/recovering-deleted-files.md
 
+  - Code Profiling:
+    - Overview: hpc/advanced/index.md
+    - Thread Pinning: hpc/advanced/thread-pinning.md
+    - Application Profiling:
+      - Overview: hpc/advanced/profiling/index.md
+      - Intel Advisor: hpc/advanced/profiling/intel-advisor.md
+      - Intel APS: hpc/advanced/profiling/intel-aps.md
+      - Intel Vtune: hpc/advanced/profiling/intel-vtune-profiler.md
+    - Debugging Mpi programs:
+      - Overview: hpc/advanced/debugging_mpi_programs/debugging_overview.md
+      - Use of GDB to deubug MPI program: hpc/advanced/debugging_mpi_programs/gdb_mpi_debug.md
+
+  - FAQ and Common Issues:
+    - Overview: hpc/faq/index.md
+    - Long Queue Times: hpc/faq/long-queue-times.md
+    - Accidentally Deleted Files: hpc/faq/deleted-files.md
+    - Cannot Create Conda Environment: hpc/faq/cannot-create-conda-env.md
+    - Cannot SSH to HX1: hpc/faq/cannot-ssh-hx1.md
+    - How much resource should I ask for: hpc/faq/how-much-resource.md
+    - Jobs causing issues with the RDS: hpc/faq/job-issues-rds.md
+    - No such file or directory: hpc/faq/bad-interpreter.md
+    - Same or Previous Code not working: hpc/faq/code-not-working.md
