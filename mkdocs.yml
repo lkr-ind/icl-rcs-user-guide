@@ -5,8 +5,21 @@ theme:
   features:
     - content.code.copy
   palette:
-    primary: black
-    accent: purple
+      # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: black
+      accent: purple
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: black
+      accent: pink
 plugins:
   - search
   - mkdocstrings:
